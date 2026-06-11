@@ -1,16 +1,59 @@
-# React + Vite
+# 💀 DeadLex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A real-time multiplayer word guessing game. Built different.
 
-Currently, two official plugins are available:
+## 🎮 What is DeadLex?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+DeadLex is a dark-themed, real-time multiplayer word guessing game where players connect through room codes and take turns guessing a hidden word. Built with a full-stack JavaScript setup and powered by Socket.io for real-time communication.
 
-## React Compiler
+No refreshing. No waiting. Just pure real-time gameplay.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚡ Tech Stack
 
-## Expanding the ESLint configuration
+| Layer | Technology |
+|---|---|
+| Frontend | React + Vite |
+| Backend | Node.js + Express |
+| Real-time | Socket.io |
+| Styling | Custom CSS |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🔴 Create or join rooms with unique room codes
+- ⚡ Real-time multiplayer — all players see updates instantly
+- 🎯 Turn-based gameplay with letter keyboard
+- 💀 Wrong guess tracking with win/draw conditions
+- 🎨 Dark themed UI with DeadLex branding
+
+## 🛠️ Run Locally
+
+**Clone the repo**
+```bash
+git clone https://github.com/jahnavist04/deadlex.git
+cd deadlex
+```
+
+**Start the server**
+```bash
+cd server
+npm install
+node index.js
+```
+
+**Start the client**
+```bash
+cd client
+npm install
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser. Open a second tab to test multiplayer!
+
+## 📍 Roadmap
+
+Check out [ROADMAP.md](./ROADMAP.md) for upcoming features including hangman animations, word categories, score tracking, chat, and more.
+
+## 👩‍💻 Built by
+
+**Jahnavi S T** — Full-Stack · Data · AI  
+[LinkedIn](https://www.linkedin.com/in/jahnavi-s-t/) | [GitHub](https://github.com/jahnavist04)
